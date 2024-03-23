@@ -31,13 +31,14 @@ h2 {
     font-size: 40px;
     font-weight: 800;
 }
-h4{
+
+h4 {
     color: #272727;
     text-align: center;
     margin-top: 32px;
     font-size: 24px;
     font-weight: 700;
-    line-height: 35px; 
+    line-height: 35px;
     text-decoration-line: underline;
 
 }
@@ -102,13 +103,39 @@ header {
     width: 100%;
     max-width: 400px;
 }
-.pink{
+
+.pink {
     background: rgba(167, 33, 98, 0.15);
 }
-.sky{
+
+.sky {
     background: rgba(5, 151, 160, 0.15);
 
 }
-.gray{
+
+.gray {
     background: rgba(71, 125, 17, 0.15);
 }
+
+/* <!-- End of featured flower section --> */
+
+/* support section style */
+.support-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 200px;
+}
+
+.sup-content {
+    margin-right: 100px;
+    text-align: center;
+}
+.image img{
+    margin-bottom: 25px;
+}
+/* end of support section */
+
