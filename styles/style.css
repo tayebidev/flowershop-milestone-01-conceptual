@@ -23,6 +23,23 @@ p {
     border: 0;
     color: white;
     padding: 20px 40px;
+    cursor: pointer;
+}
+
+h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+h4{
+    color: #272727;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; 
+    text-decoration-line: underline;
+
 }
 
 /* banner style start */
@@ -30,15 +47,16 @@ header {
     background: rgba(229, 84, 115, 0.10);
 }
 
-.banner-container {
+.container {
     width: 75%;
     max-width: 1440px;
-    margin: 0 auto ;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.ban-content *{
+
+.ban-content * {
     margin-bottom: 32px;
     max-width: 650px;
 }
@@ -48,9 +66,49 @@ header {
     font-size: 60px;
     font-weight: 800;
 }
-.ban-image img{
+
+.ban-image img {
     width: 100%;
     margin-top: 50px;
     vertical-align: middle;
 }
+
 /* banner style end */
+
+/* featured flowers section */
+
+.featured-content {
+    max-width: 595px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.featured-flower-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: end;
+}
+
+.flower {
+    border-radius: 300px 300px 0px 0px;
+    padding: 100px 75px 0;
+    height: 500px;
+    display: flex;
+    justify-content: end;
+}
+
+.flower img {
+    width: 100%;
+    max-width: 400px;
+}
+.pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+.sky{
+    background: rgba(5, 151, 160, 0.15);
+
+}
+.gray{
+    background: rgba(71, 125, 17, 0.15);
+}
