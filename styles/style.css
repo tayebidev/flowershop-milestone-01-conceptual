@@ -246,4 +246,45 @@ span {
     border-radius: 8px;
     padding: 10px;
 }
+
 /* end latest deals style */
+
+/* footer style */
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer .fot-container {
+    max-width: 625px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 128px;
+}
+footer .fot-container *{
+    margin-bottom: 25px;
+}
+
+.flwer {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.shop {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reserved {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
