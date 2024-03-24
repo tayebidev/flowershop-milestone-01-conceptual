@@ -172,3 +172,42 @@ span {
 .deal-img img {
     max-width: 318px;
 }
+
+#hot-deal {
+    margin-bottom: 128px;
+}
+
+/* Hot deal style end */
+
+/* Instagram style section */
+.ins-container {
+    width: 75%;
+    max-width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.ins-text-container {
+    max-width: 594px;
+    margin: 0 auto;
+}
+
+.ins-text-container h2 {
+    margin-bottom: 24px;
+}
+
+.ins-text-container p {
+    margin-bottom: 48px;
+}
+
+.ins-flower-container {
+    display: flex;
+    justify-content:space-around;
+    gap: 20px;
+}
+
+.flowers img{
+    width: 100%;
+    max-width: 340px;
+}
